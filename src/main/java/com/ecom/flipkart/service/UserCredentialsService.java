@@ -10,4 +10,6 @@ public interface UserCredentialsService {
 	public ResponseEntity<String> userRegistration(UserCredentialDTO user);
 	
 	public ResponseEntity<?> userLogin(UserCredentialDTO user);
+	
+	public ResponseEntity<?> userDeletion(UserCredentialDTO user);
 }
