@@ -6,7 +6,7 @@ import java.util.Date;
 public class UserCredentialDTO implements Serializable{
 
 	private static final long serialVersionUID = 1L;
-	
+
 	private Long userNo;
 	private String userId;
 	private String userRole;
@@ -14,13 +14,20 @@ public class UserCredentialDTO implements Serializable{
 	private String gender;
 	private Date dateOfBirth;
 	private String address;
+	private Date date;
+
+	public static long getSerialVersionUID() {
+		return serialVersionUID;
+	}
 
 	public String getGender() {
 		return gender;
 	}
+
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
+
 	public Date getDateOfBirth() {
 		return dateOfBirth;
 	}
