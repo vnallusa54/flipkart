@@ -13,6 +13,7 @@ public class UserCredentialDTO implements Serializable{
 	private String password;
 	private String gender;
 	private Date dateOfBirth;
+	private String address;
 	
 	public String getGender() {
 		return gender;
